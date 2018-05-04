@@ -1,0 +1,51 @@
+.add-supplier {
+  h3 {
+    font-weight: 600;
+  }
+
+  .supplier-info {
+    .supplier {
+      padding: 0 1rem;
+    }
+
+    .supplier-name, .supplier-shortName {
+      z-index: 1;
+    }
+
+    .address {
+      z-index: 0;
+    }
+  }
+
+  .contact-info {
+
+    .contact-cards {
+      // max-height: 15rem;
+      // overflow-y: auto;
+
+      .contact {
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        padding-top: 1.2rem;
+        background-color: #eee;
+
+        .anticon {
+          position: absolute;
+          right: -.5rem;
+          top: -.5rem;
+          z-index: 2;
+
+          color: red;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .add-contact {
+      padding: .5rem 0;
+      text-align: center;
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+}

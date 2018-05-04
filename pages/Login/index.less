@@ -1,0 +1,167 @@
+#root {
+  height: 100%;
+}
+
+body{
+  // background: url(../image/login-bg@3x.png) center no-repeat;
+  background-size: 100% 100%;
+  background-color: #e2e4e6;
+
+  .loginpagebc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+	  background-size: cover;
+
+    /* login header --start*/
+    .login-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3.2rem;
+      background-color: #fff;
+      font-size: 1rem;
+
+      .logo {
+        height: 2rem;
+        width: 2rem;
+        background-color: #eee;
+        border-radius: 1rem;
+        margin-right: 1rem;
+      }
+
+      .company {
+        display: inline-flex;
+        padding-right: 1rem;
+        border-right: .05rem solid #eee;
+        font-weight: 600;
+      }
+
+      .systemName {
+        padding-left: 1rem;
+        font-weight: 200;
+      }
+    }
+    /* login header --end*/
+
+    /* login main --start*/
+    .login-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      // background: url("../../../../static/images/login-bg.jpg") no-repeat fixed center ;
+
+      .loginpage{
+        width: 15rem;
+        overflow: hidden;
+        background: #fff;
+
+        .login-title{
+
+          > h2{
+            text-align: center;
+            padding: 1rem 0 .5rem 0;
+            font-family: PingFangSC-Regular;
+            font-size: .8rem;
+            color: #646464;
+            letter-spacing: 0;
+
+            > span{
+              margin-right: .3em;
+            }
+          }
+        }
+
+        .loginbox{
+          //background:#fff;
+          padding: 0 1.2rem 1.5rem 1.2rem;
+          border-bottom-right-radius: 6px;
+          border-bottom-left-radius: 6px;
+
+          h1 {
+            font-size: .8rem;
+            color: #646464;
+            font-weight:  normal;
+            text-align: center;
+          }
+
+          .anticon {
+            position: absolute;
+            margin-left: .6rem;
+            z-index: 1;
+            font-size: 16px;
+          }
+
+          .username-icon {
+            margin-top: .75rem;
+          }
+
+          .password-icon {
+            margin-top: .55rem;
+          }
+
+          .ant-form-item{
+            margin-bottom: .95rem;
+
+            .ant-form-item-label{
+              height: 1.5rem;
+
+              label{
+                color: #999;
+
+                &:before{
+                  content: ''
+                }
+              }
+            }
+          }
+
+          .username .ant-select-selection__placeholder {
+            line-height: 2;
+            padding-left: 1.4rem;
+          }
+
+          .username, .password {
+            .ant-input {
+              padding: .3rem .55rem;
+              padding-left: 2rem;
+              height: 2rem;
+              font-size: .7rem;
+
+            }
+          }
+
+          .password {
+            margin-bottom: .5rem;
+            // &::placeholder {
+            //   padding-left: 1rem;
+            // }
+          }
+
+          .auto-login {
+            margin-bottom: 0;
+          }
+
+          .button{
+            margin-top: .5rem;
+
+            button{
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    /* login main --end*/
+
+    .login-footer {
+      background-color: #fff;
+      height: 2.4rem;
+      text-align: center;
+      line-height: 2.4rem;
+    }
+  }
+}

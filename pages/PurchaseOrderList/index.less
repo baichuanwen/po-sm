@@ -1,0 +1,48 @@
+// todo: 有些代码可以删除 style={{width: 100, marginLeft: 12}}
+.po-list-filter-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+.filter-input {
+  .respo-select {
+    // width: 7.8rem;
+    margin-left: 12px;
+  }
+  .search-input {
+    width: 212px;
+    margin-left: 16px;
+  }
+}
+
+.page-content {
+  background-color: #ffffff;
+}
+
+// 状态的标识
+// .status-defualt {
+// }
+.status-primary {
+  color: #1BCC91;
+}
+.status-warn {
+  color: #FF6B00;
+}
+
+.warehouse-modal {
+  .ant-modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .purchase-list {
+    .filter-input {
+      .search-input {
+        width: 152px;
+      }
+    }
+  }
+}

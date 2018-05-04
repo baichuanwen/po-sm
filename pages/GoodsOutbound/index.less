@@ -1,0 +1,63 @@
+// todo: 有些代码可以删除 style={{width: 100, marginLeft: 12}}
+.outbound-list-filter-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .9rem;
+
+  .filter-select {
+    .range-time-title {
+      margin-right: .5rem;
+    }
+    .outbound-time {
+      margin-right: 1rem;
+      width: 12rem;
+    }
+    .warehouse-select {
+      width: 7.5rem;
+    }
+  }
+
+  .filter-input {
+    .respo-select {
+      width: 5rem;
+      margin-left: .6rem;
+      margin-left: fn(11);
+    }
+    .search-input {
+      width: 212px;
+      margin-left: 16px;
+    }
+  }
+}
+
+.page-content {
+  background-color: #ffffff;
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .outbound-list-filter-header {
+    .filter-input {
+      .search-input {
+        width: 152px;
+      }
+    }
+  }
+}
+
+// 状态的标识
+// .status-defualt {
+// }
+.status-primary {
+  color: #1BCC91;
+}
+.status-warn {
+  color: #FF6B00;
+}
+
+.warehouse-modal {
+  .ant-modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
