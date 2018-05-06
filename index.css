@@ -1,0 +1,19 @@
+html {
+  font-size: 125%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#root .app {
+  min-height: 100vh;
+}
+#root .ant-table-wrapper {
+  box-sizing: border-box;
+  border: .05rem solid #e8e8e8;
+  background-color: #fff;
+}
+#root .ant-table-wrapper .ant-pagination {
+  margin-right: 1rem;
+}
